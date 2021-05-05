@@ -37,5 +37,5 @@ else
   debug_flag=""
 fi
 
-${TEMP_DIR}/sonar-scanner-${scanner_version}/bin/sonar-scanner $debug_flag
+java -jar ${TEMP_DIR}/sonar-scanner-${scanner_version}/lib/sonar-scanner-cli-${scanner_version}.jar $debug_flag
 

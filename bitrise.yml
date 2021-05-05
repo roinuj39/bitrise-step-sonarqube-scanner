@@ -60,9 +60,9 @@ workflows:
     before_run:
     - audit-this-step
     envs:
-    - MY_STEPLIB_REPO_FORK_GIT_URL: git@github.com:DroidsOnRoids/bitrise-steplib.git
+    - MY_STEPLIB_REPO_FORK_GIT_URL: git@github.com:roinuj39/bitrise-step-sonarqube-scanner.git
     - STEP_ID_IN_STEPLIB: sonarqube-scanner
-    - STEP_GIT_VERION_TAG_TO_SHARE: 1.0.3
+    - STEP_GIT_VERION_TAG_TO_SHARE: 1.0.4
     - STEP_GIT_CLONE_URL: https://github.com/DroidsOnRoids/bitrise-step-sonarqube-scanner.git
     steps:
     - script:
